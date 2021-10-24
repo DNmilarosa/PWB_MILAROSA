@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pertemuan 2 - Latihan 7</title>
+</head>
+<body>
+<form>
+    <center><h2 style="color:blueviolet">Free Registration</h2></center>
+    <table border="0">
+        <tr>
+            <td>Nama : </td>
+            <td><input type="text" size="25" name="nama"><br></td>
+        </tr>
+        <tr>
+            <td>Tgl lahir : </td>
+            <td><input type="text" size="2" name="tangal"> / <input type="text" size="2" name="bulan"> / <input type="text" size="4" name="tahun"><br></td>
+        </tr>
+        <tr>
+            <td>Alamat : </td>
+            <td><textarea name="ket" rows="3" cols="30"></textarea><br></td>
+        </tr>
+        <tr>
+            <td>Kota : </td>
+            <td><input type="text" size="25" name="kota"><br></td>
+        </tr>
+        <tr>
+            <td>Pekerjaan : </td>
+            <td>
+                <select name="pekerjaan" id="">
+                    <option value="tani">Tani</option>
+                    <option value="programmer">Programmer</option>
+                    <option value="project_manager">Project Manager</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td>Jenis Kelamin : </td>
+            <td><input type="radio" name="jkel" value="laki-laki" checked>Laki Laki<input type="radio" name="jkel" value="perempuan">Perempuan<br></td>
+        </tr>
+        <tr>
+            <td>Hobby : </td>
+            <td>
+                <input type="checkbox" value="reading">Reading<br>
+                <input type="checkbox" value="sport">Spport<br>
+                <input type="checkbox" value="singing">Singing<br>
+                <input type="checkbox" value="traveling">Traveling<br>
+            </td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <input type="button" value="kirim">
+                <input type="reset" value="cancel">
+            </td>
+        </tr>
+    </table>
+</form>
+</body>
+</html>
