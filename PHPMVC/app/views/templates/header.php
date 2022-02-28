@@ -22,7 +22,7 @@ expanded="false" aria-label="Toggle navigation">
 
 <a class="nav-link active" href="<?= BASEURL; ?>">Home <span class="sr-
 only">(current)</span></a>
-
+<a class="nav-link" href="<?= BASEURL; ?>/mahasiswa">Mahasiswa</a>
 <a class="nav-link" href="<?= BASEURL; ?>/about">About</a>
 </div>
 </div>
